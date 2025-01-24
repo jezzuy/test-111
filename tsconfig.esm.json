@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist/esm",
+    "module": "esnext"
+  },
+  "exclude": ["**/__tests__/**", "src/index.cjs.edge.ts", "src/index.cjs.node.ts"]
+}

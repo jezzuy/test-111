@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist/types",
+    "declaration": true,
+    "moduleResolution": "NodeNext",
+    "emitDeclarationOnly": true
+  },
+  "exclude": ["**/__tests__/**", "./src/index.cjs.edge.ts", "./src/index.esm.node.ts", "./src/index.esm.edge.ts"]
+}
